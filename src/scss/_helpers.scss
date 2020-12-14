@@ -30,7 +30,11 @@
 
 h2{
     font-size: 5rem;
-    padding: 1rem 0;
+	padding: 1rem 0;
+	
+	@include bp(tablet-sm){
+		font-size: 2rem;
+	}
 } 
 
 //Css loader

@@ -10,6 +10,10 @@
     text-shadow: 1px 1px 1px color(black);
     animation-delay: 2s;
     animation: move-top-bottom 0.6s;
+
+    @include bp(tablet-sm){
+        font-size: .8rem;
+    }
 }
 
 @keyframes move-top-bottom{

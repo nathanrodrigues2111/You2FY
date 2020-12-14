@@ -1,6 +1,7 @@
 import { generatePlaylist } from './components/generatePlaylist';
 import { inputFields } from './components/inputFields';
 import { loaderIcon } from './components/loaderIcon'; 
+import { scrollTop } from './components/scrollTop';
 
 import './scss/main.scss';
 
@@ -17,5 +18,7 @@ inputFields('.search-btn','').addEventListener('click', async () => {
 
     }
 })
+
+scrollTop();
 
 
