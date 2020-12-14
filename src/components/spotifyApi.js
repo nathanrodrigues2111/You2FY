@@ -16,8 +16,9 @@ export const token = async () => {
     return data.access_token;
 }
 export const getPlaylist = async (token,playlistId) => {
-        
-    const result = await fetch(`https://api.spotify.com/v1/playlists/7nMxqhaWgsjVKbJu6EqsPm`, {
+    const playlistLength = playlistId.split('/').length;
+    
+    const result = await fetch(`https://api.spotify.com/v1/playlists/${playlistId.split('/')[playlistLength - 1]}`, {
         method: 'GET',
         headers: { 'Authorization' : 'Bearer ' + token}
     });

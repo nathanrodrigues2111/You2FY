@@ -64,13 +64,18 @@
         .button-wrapper{
             text-align: center;
 
-            .search-btn{
+            .search-btn{ 
                 display: flex; 
                 margin-right: 0;
                 margin-left: auto;
 
                 i{
                     padding-left: .5rem;
+                }
+
+                @media (max-width: 991px){
+                    margin: 0 auto;
+                    margin-top: 1rem;
                 }
             }
         }
