@@ -1,0 +1,29 @@
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.space-between-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.error,.success,.processing{
+    padding: .3rem;
+    background-color: color(failure);
+    border-radius: 100px;
+    text-align: center;
+    margin-top: .5rem;
+
+    &.success{
+        background-color: color(success);
+        color: color(black);
+    }
+
+    &.processing{
+        background-color: color(processing);
+        color: color(black);
+    }
+}

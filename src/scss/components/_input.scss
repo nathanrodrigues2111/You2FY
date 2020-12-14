@@ -1,0 +1,17 @@
+input{
+    width: 100%;
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    border: 0;
+    color: color(alt-text);
+    font-weight: 500;
+    border: 2px solid color(primary, base);
+
+    &.youtube{
+        border: 2px solid color(failure);
+    }
+
+    &.spotify{
+        border: 2px solid color(success);
+    }
+}

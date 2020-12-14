@@ -1,0 +1,29 @@
+{
+  "name": "You2FY",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanrodrigues2111/You2FY.git"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanrodrigues2111/You2FY/issues"
+  },
+  "homepage": "https://github.com/nathanrodrigues2111/You2FY#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
+  }
+}
